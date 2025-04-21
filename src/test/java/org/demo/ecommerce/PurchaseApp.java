@@ -59,6 +59,7 @@ public class PurchaseApp extends BaseClass {
 			sendKeys(a.getLname(), "Monkey D");
 			sendKeys(a.getCode(), "543678");
 			click(a.getNxtcontinue());
+			System.out.println("Automation Completed");
 			System.out.println("Test Completed");
 			
 			
